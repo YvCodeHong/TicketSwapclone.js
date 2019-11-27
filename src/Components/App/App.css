@@ -1,0 +1,52 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Reusable Component - Image Container */
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+/* App Styles */
+
+.App {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-image: url('./background_photo_desktop.jpg');
+  background-size: cover;
+  background-position: no-repeat;
+  font-family: 'Noticia Text', serif;
+  font-weight: 500;
+  color: #fff;
+}
+
+h1 {
+  height: 100%;
+  padding: .77rem 0;
+  text-align: center;
+  background-color: #09c7f6;
+  font-family: 'Noticia Text', serif;
+  font-size: 1.88rem;
+  color: #fff;
+}
