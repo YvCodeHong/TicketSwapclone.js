@@ -36,8 +36,8 @@ input:focus {
   background-image: url('./background_photo_desktop.jpg');
   background-size: cover;
   background-position: no-repeat;
-  font-family: 'Noticia Text', serif;
-  font-weight: 500;
+  font-family: 'Baloo Bhaina', cursive;
+   font-weight: 500;
   color: #fff;
 }
 
@@ -45,7 +45,36 @@ h1 {
   height: 100%;
   padding: .88rem 0;
   text-align: left;
-  font-family: 'Noticia Text', serif;
+  font-family: 'Baloo Bhaina', cursive;
   font-size: 1.88rem;
   color: #fff;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50
+}
+

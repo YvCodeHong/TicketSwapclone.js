@@ -6,8 +6,14 @@ class App extends React.Component {
   render() {
     return (
       <div class="App">
-        <h1>TicketSwap</h1>
-          <SearchBar />
+      <style></style>
+        <ul>
+          <li class="logo"><a href="#">TicketSwap</a></li>
+          <li class="works"><a href="#">How it works</a></li>
+          <li class="login"><a href="#">Login</a></li>
+          <li class="item button"><a href="#">Sell Tickets</a></li>
+        </ul>
+           <SearchBar />
       </div>
     )
   }

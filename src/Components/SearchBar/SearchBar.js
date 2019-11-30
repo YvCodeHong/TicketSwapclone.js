@@ -4,7 +4,7 @@ import './SearchBar.css';
 class SearchBar extends React.Component {
     render() {
         return (
-            <div className="SearchBar">r
+            <div className="SearchBar">
                 <input placeholder="Search for events, venues and cities"/>
                 <button className="SearchButton">SEARCH</button>
             </div>
