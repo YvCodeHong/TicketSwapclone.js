@@ -13,6 +13,7 @@ class App extends React.Component {
           <li class="login"><a href="#">Login</a></li>
           <li class="item button"><a href="#">Sell Tickets</a></li>
         </ul>
+          <h1>The safest way to buy and sell e-tickets</h1>
            <SearchBar />
       </div>
     )

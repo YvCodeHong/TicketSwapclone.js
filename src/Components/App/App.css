@@ -44,10 +44,18 @@ input:focus {
 h1 {
   height: 100%;
   padding: .88rem 0;
-  text-align: left;
+  text-align: center;
   font-family: 'Baloo Bhaina', cursive;
   font-size: 1.88rem;
   color: #fff;
+}
+
+.center {
+   margin: auto;
+   position: absolute;
+   width: 50%;
+   border: black;
+   padding: 10px;
 }
 
 ul {
