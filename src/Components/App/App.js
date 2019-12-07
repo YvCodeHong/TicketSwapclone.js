@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Toolbar from '../Toolbar/Toolbar';
 
+
 import SearchBar from '../SearchBar/SearchBar';
 
 class App extends React.Component {

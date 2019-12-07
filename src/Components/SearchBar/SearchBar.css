@@ -4,7 +4,9 @@
   align-items: center;
   padding-top: 6.94rem;
   margin-bottom: 6.33rem;
+  font-size: 3.00rem;
 }
+
 
 .SearchBar input {
   width: 1000px;
