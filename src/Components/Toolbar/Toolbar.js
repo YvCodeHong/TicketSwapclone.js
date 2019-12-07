@@ -6,8 +6,8 @@ const toolbar = props => (
         <nav className="toolbar_navigation">
             <div></div>
             <div className="toolbar_logo"><a href="/">Ticketswap</a></div>
-            <div className="toolbar_navigation-items"></div>
-            <div>
+            <div className="spacer" />
+            <div className="toolbar_navigation-items">
                 <ul>
                     <li><a href="/">How it works</a></li>
                     <li><a href="/">Login</a></li>

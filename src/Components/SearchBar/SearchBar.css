@@ -7,11 +7,11 @@
 }
 
 .SearchBar input {
-  width: 800px;
-  padding: .88rem 0;
+  width: 1000px;
+  padding: 1.88rem 0;
   border: 1px solid ;
   border-radius: 25px;
-  margin-bottom: 2.22rem;
+  margin-bottom: 3.22rem;
   color: #0b0c0c;
   text-align: center;
   font-size: 1rem;
@@ -23,12 +23,12 @@
 
 .SearchButton {
   cursor: pointer;
-  width: 8.11rem;
-  padding: .77rem 0;
+  width: 12.11rem;
+  padding: .97rem 0;
   border-radius: 54px;
   background-color: #070505;
   text-align: center;
-  font-size: .833rem;
+  font-size: 1.33rem;
   transition: background-color .25s;
   border: 0px;
   color: #f3f6f7;
