@@ -5,9 +5,15 @@ class SearchBar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-           venues: '', 
+           venue: '', 
         };
         this.handleEventChange = this.handleEventChange.bind(this);
+        this.handleSearch = this.handleSearch.bind(this);
+    }
+
+    handleSearch(event) {
+        this.props.searchTicket(this.state.venue);
+        event.preventDefault();
     }
 
     handleEventChange(event) {
@@ -18,8 +24,8 @@ class SearchBar extends React.Component {
         return (
             <div className="SearchBar">
                 The safest way to buy and sell e-tickets
-                <input placeholder="Search for events, venues and cities"/>
-                <button className="SearchButton">SEARCH</button>
+                <input placeholder="Search for events, venues and cities" onChange={this.handleEventChange}/>
+                <button className="SearchButton" onClick={this.handleSearch}>SEARCH</button>
             </div>
         )
     }

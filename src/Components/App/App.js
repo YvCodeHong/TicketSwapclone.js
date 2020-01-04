@@ -5,12 +5,15 @@ import EventsList from '../EventsList/EventsList';
 import SearchBar from '../SearchBar/SearchBar';
 
 class App extends React.Component {
+  searchTicket(venue) {
+    console.log(`You are searching for ${venue}`);
+  }
   render() {
     return (
       <div class="App">
           <Toolbar />
         <main style={{marginTop: '56px'}}></main>
-           <SearchBar />
+           <SearchBar searchTicket={this.searchTicket} />
            <EventsList />
       </div>
     )
